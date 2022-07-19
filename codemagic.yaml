@@ -33,9 +33,9 @@
       publishing:
         app_store_connect: # For iOS or macOS app
           # For authenticating with App Store Connect and uploading the IPA to App Store Connect (required)
-          api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key saved as a secure environment variable
-          key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
-          issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+          api_key:  MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgyEBVUzx1TaSgl/X9tsypltJXD6AUPOn7li61lvEBrMCgCgYIKoZIzj0DAQehRANCAAS6O9RwxEw09/cvRAtDDmRjTk/3Bq5qD4qoLTxTwTUfJeOGWF+ozg6g6mTmyZB0WJ34+rSwv8bYvRvSGOUmO4Qm# Contents of the API key saved as a secure environment variable
+          key_id: 74BTLT6CF4 # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+          issuer_id: 8b689885-11b6-4d2b-a06c-82d46128abc9 # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
 
           # Configuration related to TestFlight (optional)
           submit_to_testflight: true # Optional boolean, defaults to false. Whether or not to submit the uploaded build to TestFlight beta review. Required for distributing to beta groups. Note: This action is performed during post-processing.
